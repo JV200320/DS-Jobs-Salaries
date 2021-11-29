@@ -15,7 +15,7 @@ class DataScienceSalaries(Resource):
 
     def __init__(self) -> None:
         super().__init__()
-        self.INSUFFICIENT_PARAMS_ERR_MSG = 'Insufficient params. Necessary params: field, filter, groupby, x, y.\nFor more help go to /help'
+        self.INSUFFICIENT_PARAMS_ERR_MSG = 'Insufficient params. Necessary params: field, filter, groupby, x, y.\nFor more help go to /'
 
     def get(self):
         dataset = Dataset()

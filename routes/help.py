@@ -14,4 +14,13 @@ class Help(Resource):
         Necessary params: field, filter, groupby, x, y.
         Optional params: orientation, xlabel, ylabel, method
         The graph generated is a boxplot
-        Columns = work_year, experience_level, employment_type, job_title, salary, salary_currency, salary_in_usd, employee_residence, remote_ratio, company_location and company_size"""
+        Columns = work_year, experience_level, employment_type, job_title, salary, salary_currency, salary_in_usd, employee_residence, remote_ratio, company_location and company_size
+        
+        
+        
+        
+        
+        
+        
+        
+        Go to /data-science-salaries to start"""

@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 class Dataset():
 
     def __init__(self) -> None:
-        url = 'url to repo csv'
+        url = 'https://raw.githubusercontent.com/JV200320/DS-Jobs-Salaries/main/data/Data_Science_Jobs_Salaries.csv'
         self._df = pd.read_csv(url)
         self.field = None
         self.filter = None
